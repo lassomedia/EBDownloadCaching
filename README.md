@@ -22,9 +22,9 @@ EBImageDownloadCache is a simple subclass of EBDownloadCache that stores CGImage
 
 1. Integrate [EBFoundation](https://github.com/davekeck/EBFoundation) into your project.
 2. Integrate [EBPrimitives](https://github.com/davekeck/EBPrimitives) into your project.
-3. Drag EBDownload.xcodeproj into your project's file hierarchy.
+3. Drag EBDownloadCaching.xcodeproj into your project's file hierarchy.
 4. In your target's "Build Phases" tab:
-    * Add EBDownload as a dependency ("Target Dependencies" section)
-    * Link against EBDownload ("Link Binary With Libraries" section)
+    * Add EBDownloadCaching as a dependency ("Target Dependencies" section)
+    * Link against EBDownloadCaching ("Link Binary With Libraries" section)
     * For products targeting OS X: link against libcurl ("Link Binary With Libraries" section)
-5. Add `#import <EBDownload/EBDownload.h>` to your source files.
+5. Add `#import <EBDownloadCaching/EBDownloadCaching.h>` to your source files.
