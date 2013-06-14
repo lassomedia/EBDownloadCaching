@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		550F797E176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; };
-		550F797F176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; };
+		550F797E176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F797F176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7980176A898B006C95BF /* EBDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7978176A898B006C95BF /* EBDownload.m */; };
 		550F7981176A898B006C95BF /* EBDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7978176A898B006C95BF /* EBDownload.m */; };
-		550F7982176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; };
-		550F7983176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; };
+		550F7982176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F7983176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7984176A898B006C95BF /* EBDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797A176A898B006C95BF /* EBDownloadCache.m */; };
 		550F7985176A898B006C95BF /* EBDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797A176A898B006C95BF /* EBDownloadCache.m */; };
-		550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; };
-		550F7987176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; };
-		550F7988176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; };
-		550F7989176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; };
+		550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F7987176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F7988176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F7989176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F798A176A898B006C95BF /* EBImageDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797D176A898B006C95BF /* EBImageDownloadCache.m */; };
 		550F798B176A898B006C95BF /* EBImageDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797D176A898B006C95BF /* EBImageDownloadCache.m */; };
+		5563DAA8176A8F8500A6957F /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DA9E176A8F8500A6957F /* curl.h */; };
+		5563DAA9176A8F8500A6957F /* curlbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DA9F176A8F8500A6957F /* curlbuild.h */; };
+		5563DAAA176A8F8500A6957F /* curlrules.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA0176A8F8500A6957F /* curlrules.h */; };
+		5563DAAB176A8F8500A6957F /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA1176A8F8500A6957F /* curlver.h */; };
+		5563DAAC176A8F8500A6957F /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA2176A8F8500A6957F /* easy.h */; };
+		5563DAAD176A8F8500A6957F /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563DAA3176A8F8500A6957F /* libcurl.a */; };
+		5563DAAE176A8F8500A6957F /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA4176A8F8500A6957F /* mprintf.h */; };
+		5563DAAF176A8F8500A6957F /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA5176A8F8500A6957F /* multi.h */; };
+		5563DAB0176A8F8500A6957F /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA6176A8F8500A6957F /* stdcheaders.h */; };
+		5563DAB1176A8F8500A6957F /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA7176A8F8500A6957F /* typecheck-gcc.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +41,18 @@
 		550F797B176A898B006C95BF /* EBDownloadCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBDownloadCaching.h; sourceTree = "<group>"; };
 		550F797C176A898B006C95BF /* EBImageDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBImageDownloadCache.h; sourceTree = "<group>"; };
 		550F797D176A898B006C95BF /* EBImageDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBImageDownloadCache.m; sourceTree = "<group>"; };
-		55995A7C1763FEB10017F41E /* libEBFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEBFoundation.a; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		55995A921763FEB90017F41E /* libEBFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEBFoundation.a; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5563DA9E176A8F8500A6957F /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		5563DA9F176A8F8500A6957F /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		5563DAA0176A8F8500A6957F /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		5563DAA1176A8F8500A6957F /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		5563DAA2176A8F8500A6957F /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		5563DAA3176A8F8500A6957F /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		5563DAA4176A8F8500A6957F /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		5563DAA5176A8F8500A6957F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		5563DAA6176A8F8500A6957F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		5563DAA7176A8F8500A6957F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55995A921763FEB90017F41E /* libEBDownloadCaching.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,17 +68,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5563DAAD176A8F8500A6957F /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5563DA9D176A8F8500A6957F /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				5563DA9E176A8F8500A6957F /* curl.h */,
+				5563DA9F176A8F8500A6957F /* curlbuild.h */,
+				5563DAA0176A8F8500A6957F /* curlrules.h */,
+				5563DAA1176A8F8500A6957F /* curlver.h */,
+				5563DAA2176A8F8500A6957F /* easy.h */,
+				5563DAA3176A8F8500A6957F /* libcurl.a */,
+				5563DAA4176A8F8500A6957F /* mprintf.h */,
+				5563DAA5176A8F8500A6957F /* multi.h */,
+				5563DAA6176A8F8500A6957F /* stdcheaders.h */,
+				5563DAA7176A8F8500A6957F /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
 		55995A711763FE8E0017F41E = {
 			isa = PBXGroup;
 			children = (
 				55995ABB1763FEE40017F41E /* README.md */,
 				55995ABC1763FEE80017F41E /* Source */,
+				5563DA9D176A8F8500A6957F /* curl */,
 				55995A7D1763FEB10017F41E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,8 +105,8 @@
 		55995A7D1763FEB10017F41E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55995A7C1763FEB10017F41E /* libEBFoundation.a */,
-				55995A921763FEB90017F41E /* libEBFoundation.a */,
+				55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */,
+				55995A921763FEB90017F41E /* libEBDownloadCaching.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +132,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550F7987176A898B006C95BF /* EBDownloadCaching.h in Headers */,
 				550F797F176A898B006C95BF /* EBDownload.h in Headers */,
 				550F7983176A898B006C95BF /* EBDownloadCache.h in Headers */,
-				550F7987176A898B006C95BF /* EBDownloadCaching.h in Headers */,
 				550F7989176A898B006C95BF /* EBImageDownloadCache.h in Headers */,
+				5563DAA8176A8F8500A6957F /* curl.h in Headers */,
+				5563DAA9176A8F8500A6957F /* curlbuild.h in Headers */,
+				5563DAAA176A8F8500A6957F /* curlrules.h in Headers */,
+				5563DAAB176A8F8500A6957F /* curlver.h in Headers */,
+				5563DAAC176A8F8500A6957F /* easy.h in Headers */,
+				5563DAAE176A8F8500A6957F /* mprintf.h in Headers */,
+				5563DAAF176A8F8500A6957F /* multi.h in Headers */,
+				5563DAB0176A8F8500A6957F /* stdcheaders.h in Headers */,
+				5563DAB1176A8F8500A6957F /* typecheck-gcc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,9 +152,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */,
 				550F797E176A898B006C95BF /* EBDownload.h in Headers */,
 				550F7982176A898B006C95BF /* EBDownloadCache.h in Headers */,
-				550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */,
 				550F7988176A898B006C95BF /* EBImageDownloadCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +176,7 @@
 			);
 			name = Mac;
 			productName = Mac;
-			productReference = 55995A7C1763FEB10017F41E /* libEBFoundation.a */;
+			productReference = 55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		55995A911763FEB90017F41E /* iOS */ = {
@@ -145,7 +193,7 @@
 			);
 			name = iOS;
 			productName = iOS;
-			productReference = 55995A921763FEB90017F41E /* libEBFoundation.a */;
+			productReference = 55995A921763FEB90017F41E /* libEBDownloadCaching.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -288,6 +336,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/curl\"",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/curl\"",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
