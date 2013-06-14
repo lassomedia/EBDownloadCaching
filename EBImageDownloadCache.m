@@ -4,17 +4,28 @@
 
 @implementation EBImageDownloadCache
 
-- (id <NSObject>)transformData: (NSData *)data
+- (instancetype)initWithMemoryCache: (NSCache *)memoryCache diskCache: (EBDiskCache *)diskCache
 {
-        NSParameterAssert(data);
+    NSValueTransformer *transformer = [EBBlockValueTransformer newWithForwardBlock: ^id(id data)
+        {
+                NSParameterAssert(data && [data isKindOfClass: [NSData class]]);
+            
+            id imageSource = CFBridgingRelease(CGImageSourceCreateWithData((__bridge CFDataRef)data, nil));
+                EBAssertOrRecover(imageSource, return nil);
+            
+            id image = CFBridgingRelease(CGImageSourceCreateImageAtIndex((__bridge CGImageSourceRef)imageSource, 0, nil));
+                EBAssertOrRecover(image, return nil);
+            
+            return image;
+        }];
     
-    id imageSource = CFBridgingRelease(CGImageSourceCreateWithData((__bridge CFDataRef)data, nil));
-        EBAssertOrRecover(imageSource, return nil);
-    
-    id image = CFBridgingRelease(CGImageSourceCreateImageAtIndex((__bridge CGImageSourceRef)imageSource, 0, nil));
-        EBAssertOrRecover(image, return nil);
-    
-    return image;
+    return [super initWithMemoryCache: memoryCache diskCache: diskCache transformer: transformer];
+}
+
+- (instancetype)initWithMemoryCache: (NSCache *)memoryCache diskCache: (EBDiskCache *)diskCache transformer: (NSValueTransformer *)transformer
+{
+    EBRaise(@"%@ cannot be initialized via %@!", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+    return nil;
 }
 
 @end

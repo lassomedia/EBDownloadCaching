@@ -29,4 +29,5 @@ EBImageDownloadCache is a simple subclass of EBDownloadCache that stores CGImage
     * Link against Security.framework
     * Link against libz.dylib
     * For products targeting OS X: link against libcurl.dylib
+    * For products targeting iOS: link against ImageIO.framework
 5. Add `#import <EBDownloadCaching/EBDownloadCaching.h>` to your source files.

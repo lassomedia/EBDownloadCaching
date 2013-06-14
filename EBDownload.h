@@ -34,6 +34,9 @@ typedef void (^EBDownloadHandler)(EBDownload *download);
 
 /* If -start is called, the handler block is guaranteed to be called. */
 - (void)start;
-- (void)invalidate; /* Simply sets the receiver's `valid` property to NO. If the receiver notices the invalidation before the download is complete, the receiver's state will transition to Cancelled. */
+
+/* Simply sets the receiver's `valid` property to NO. If the receiver notices the invalidation before the
+   download is complete, the receiver's state will transition to Cancelled. */
+- (void)invalidate;
 
 @end
