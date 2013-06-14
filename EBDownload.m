@@ -1,3 +1,6 @@
+// TODO
+// We should remove EBDownload's handling of threading and make it a subclass of NSOperation, so it can be put in any queue it wants to be in.
+
 #import "EBDownload.h"
 #import <libkern/OSAtomic.h>
 #import <sys/stat.h>
