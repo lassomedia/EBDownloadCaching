@@ -7,7 +7,7 @@ typedef void (^EBDownloadCacheHandler)(EBDownload *download, id <NSObject> objec
 @interface EBDownloadCache : EBTwoLevelCache
 
 /* The queue on which handler blocks are executed. Nil (the default) signifies the main queue. */
-@property(nonatomic) dispatch_queue_t asyncHandlerQueue;
+@property(nonatomic, strong) dispatch_queue_t asyncHandlerQueue;
 
 /* Controls whether reads from disk should be synchronous from within -downloadURL:. NO by default. */
 @property(nonatomic) BOOL synchronousFromDisk;
