@@ -8,7 +8,8 @@
 {
     NSValueTransformer *transformer = [EBBlockValueTransformer newWithForwardBlock: ^id(id data)
         {
-                NSParameterAssert(data && [data isKindOfClass: [NSData class]]);
+                /* We have to use NSCParameterAssert, because NSParameterAssert maintains a strong reference to `self`! */
+                NSCParameterAssert(data && [data isKindOfClass: [NSData class]]);
             
             id imageSource = CFBridgingRelease(CGImageSourceCreateWithData((__bridge CFDataRef)data, nil));
                 EBAssertOrRecover(imageSource, return nil);
