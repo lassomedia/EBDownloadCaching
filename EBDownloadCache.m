@@ -92,7 +92,7 @@
             EBAssertOrRecover(object, goto EBFinish);
         
         /* Put the object in our memory cache */
-        [[self memoryCache] setObject: object forKey: download->_key];
+        [[self memoryCache] setObject: object forKey: download->_key cost: [data length]];
         
         /* If the download wasn't from the disk cache, store the data in the disk cache in the background. */
         if (!download->_fromDiskCache)

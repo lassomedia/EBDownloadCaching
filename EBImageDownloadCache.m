@@ -2,10 +2,14 @@
 #import <ImageIO/ImageIO.h>
 #import <EBFoundation/EBFoundation.h>
 
+static const NSUInteger kMaxEBDataInMemorySize = 5 * 1024 * 1024; // 5MB
+
 @implementation EBImageDownloadCache
 
 - (instancetype)initWithMemoryCache: (NSCache *)memoryCache diskCache: (EBDiskCache *)diskCache
 {
+    [memoryCache setTotalCostLimit:kMaxEBDataInMemorySize];
+    
     NSValueTransformer *transformer = [EBBlockValueTransformer newWithForwardBlock: ^id(id data)
         {
                 /* We have to use NSCParameterAssert, because NSParameterAssert maintains a strong reference to `self`! */
