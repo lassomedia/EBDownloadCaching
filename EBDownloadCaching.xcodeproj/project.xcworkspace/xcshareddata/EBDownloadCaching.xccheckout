@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D94822F2-54B1-4780-B396-AA7737802025</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EBDownloadCaching</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CA64FF1-FD58-478D-99DE-5DEBFB044681</key>
+		<string>ssh://github.com/lassomedia/EBPrimitives.git</string>
+		<key>74BEE531-7C85-43BB-B030-93F10E355B4E</key>
+		<string>ssh://github.com/lassomedia/EBDownloadCaching.git</string>
+		<key>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</key>
+		<string>ssh://github.com/lassomedia/EBFoundation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EBDownloadCaching.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CA64FF1-FD58-478D-99DE-5DEBFB044681</key>
+		<string>../../../EBPrimitives</string>
+		<key>74BEE531-7C85-43BB-B030-93F10E355B4E</key>
+		<string>../..</string>
+		<key>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</key>
+		<string>../../../EBFoundation</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/lassomedia/EBDownloadCaching.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74BEE531-7C85-43BB-B030-93F10E355B4E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74BEE531-7C85-43BB-B030-93F10E355B4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EBDownloadCaching</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EBFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CA64FF1-FD58-478D-99DE-5DEBFB044681</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EBPrimitives</string>
+		</dict>
+	</array>
+</dict>
+</plist>

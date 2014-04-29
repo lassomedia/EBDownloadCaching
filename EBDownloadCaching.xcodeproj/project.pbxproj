@@ -7,19 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		550F797E176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F797F176A898B006C95BF /* EBDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7980176A898B006C95BF /* EBDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7978176A898B006C95BF /* EBDownload.m */; };
 		550F7981176A898B006C95BF /* EBDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7978176A898B006C95BF /* EBDownload.m */; };
-		550F7982176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7983176A898B006C95BF /* EBDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7984176A898B006C95BF /* EBDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797A176A898B006C95BF /* EBDownloadCache.m */; };
 		550F7985176A898B006C95BF /* EBDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797A176A898B006C95BF /* EBDownloadCache.m */; };
-		550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7987176A898B006C95BF /* EBDownloadCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7988176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7989176A898B006C95BF /* EBImageDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F798A176A898B006C95BF /* EBImageDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797D176A898B006C95BF /* EBImageDownloadCache.m */; };
 		550F798B176A898B006C95BF /* EBImageDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F797D176A898B006C95BF /* EBImageDownloadCache.m */; };
 		5563DAA8176A8F8500A6957F /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DA9E176A8F8500A6957F /* curl.h */; };
 		5563DAA9176A8F8500A6957F /* curlbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DA9F176A8F8500A6957F /* curlbuild.h */; };
@@ -34,13 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55612B70176D28BB00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA92176D009F0091CD77 /* EBFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55995A7C1763FEB10017F41E;
-			remoteInfo = Mac;
-		};
 		55612B72176D28BB00F85CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55CBFA92176D009F0091CD77 /* EBFoundation.xcodeproj */;
@@ -48,33 +34,12 @@
 			remoteGlobalIDString = 55995A921763FEB90017F41E;
 			remoteInfo = iOS;
 		};
-		55612B78176D28BB00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA9B176D00A20091CD77 /* EBPrimitives.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55995A7C1763FEB10017F41E;
-			remoteInfo = Mac;
-		};
 		55612B7A176D28BB00F85CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55CBFA9B176D00A20091CD77 /* EBPrimitives.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 55995A921763FEB90017F41E;
 			remoteInfo = iOS;
-		};
-		55612C4F176D36BD00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA9B176D00A20091CD77 /* EBPrimitives.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 55995A7B1763FEB10017F41E;
-			remoteInfo = Mac;
-		};
-		55612C51176D36BD00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA92176D009F0091CD77 /* EBFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 55995A7B1763FEB10017F41E;
-			remoteInfo = Mac;
 		};
 		55612C57176D36C600F85CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -110,7 +75,6 @@
 		5563DAA5176A8F8500A6957F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
 		5563DAA6176A8F8500A6957F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
 		5563DAA7176A8F8500A6957F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
-		55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995A921763FEB90017F41E /* libEBDownloadCaching.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBDownloadCaching.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		55CBFA92176D009F0091CD77 /* EBFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EBFoundation.xcodeproj; path = ../EBFoundation/EBFoundation.xcodeproj; sourceTree = "<group>"; };
@@ -118,13 +82,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55995A791763FEB10017F41E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55995A8F1763FEB90017F41E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,7 +96,6 @@
 		55612B6C176D28BB00F85CE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55612B71176D28BB00F85CE4 /* libEBFoundation.a */,
 				55612B73176D28BB00F85CE4 /* libEBFoundation.a */,
 			);
 			name = Products;
@@ -148,7 +104,6 @@
 		55612B74176D28BB00F85CE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55612B79176D28BB00F85CE4 /* libEBPrimitives.a */,
 				55612B7B176D28BB00F85CE4 /* libEBPrimitives.a */,
 			);
 			name = Products;
@@ -186,7 +141,6 @@
 		55995A7D1763FEB10017F41E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */,
 				55995A921763FEB90017F41E /* libEBDownloadCaching.a */,
 			);
 			name = Products;
@@ -229,39 +183,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55995A7A1763FEB10017F41E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550F7986176A898B006C95BF /* EBDownloadCaching.h in Headers */,
-				550F797E176A898B006C95BF /* EBDownload.h in Headers */,
-				550F7982176A898B006C95BF /* EBDownloadCache.h in Headers */,
-				550F7988176A898B006C95BF /* EBImageDownloadCache.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		55995A7B1763FEB10017F41E /* Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */;
-			buildPhases = (
-				55995A781763FEB10017F41E /* Sources */,
-				55995A791763FEB10017F41E /* Frameworks */,
-				55995A7A1763FEB10017F41E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55612C52176D36BD00F85CE4 /* PBXTargetDependency */,
-				55612C50176D36BD00F85CE4 /* PBXTargetDependency */,
-			);
-			name = Mac;
-			productName = Mac;
-			productReference = 55995A7C1763FEB10017F41E /* libEBDownloadCaching.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		55995A911763FEB90017F41E /* iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55995A9C1763FEB90017F41E /* Build configuration list for PBXNativeTarget "iOS" */;
@@ -311,32 +235,17 @@
 			);
 			projectRoot = "";
 			targets = (
-				55995A7B1763FEB10017F41E /* Mac */,
 				55995A911763FEB90017F41E /* iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		55612B71176D28BB00F85CE4 /* libEBFoundation.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libEBFoundation.a;
-			remoteRef = 55612B70176D28BB00F85CE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		55612B73176D28BB00F85CE4 /* libEBFoundation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libEBFoundation.a;
 			remoteRef = 55612B72176D28BB00F85CE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55612B79176D28BB00F85CE4 /* libEBPrimitives.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libEBPrimitives.a;
-			remoteRef = 55612B78176D28BB00F85CE4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		55612B7B176D28BB00F85CE4 /* libEBPrimitives.a */ = {
@@ -349,16 +258,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55995A781763FEB10017F41E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550F7980176A898B006C95BF /* EBDownload.m in Sources */,
-				550F7984176A898B006C95BF /* EBDownloadCache.m in Sources */,
-				550F798A176A898B006C95BF /* EBImageDownloadCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55995A8E1763FEB90017F41E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,16 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55612C50176D36BD00F85CE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mac;
-			targetProxy = 55612C4F176D36BD00F85CE4 /* PBXContainerItemProxy */;
-		};
-		55612C52176D36BD00F85CE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mac;
-			targetProxy = 55612C51176D36BD00F85CE4 /* PBXContainerItemProxy */;
-		};
 		55612C58176D36C600F85CE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOS;
@@ -423,12 +312,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -454,32 +341,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		55995A8B1763FEB10017F41E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		55995A8C1763FEB10017F41E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -517,15 +384,6 @@
 			buildConfigurations = (
 				55995A761763FE8E0017F41E /* Debug */,
 				55995A771763FE8E0017F41E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55995A8B1763FEB10017F41E /* Debug */,
-				55995A8C1763FEB10017F41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
