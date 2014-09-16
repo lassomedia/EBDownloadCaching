@@ -196,7 +196,7 @@ static size_t curlHandleData(char *data, size_t dataSize, size_t dataCount, NSMu
             size_t bytesRead = 0;
             do
             {
-                ssize_t readResult = read(fd, bytes + bytesRead, EBMin(PAGE_SIZE, fileSize - bytesRead));
+                ssize_t readResult = read(fd, bytes + bytesRead, EBMin(getpagesize(), fileSize - bytesRead));
                     EBAssertOrRecover(readResult > 0 || (readResult < 0 && (errno == EAGAIN || errno == EINTR)), goto EBFinish);
                 
                 if (readResult > 0)
