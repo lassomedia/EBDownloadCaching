@@ -24,6 +24,10 @@
 		5563DAAF176A8F8500A6957F /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA5176A8F8500A6957F /* multi.h */; };
 		5563DAB0176A8F8500A6957F /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA6176A8F8500A6957F /* stdcheaders.h */; };
 		5563DAB1176A8F8500A6957F /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563DAA7176A8F8500A6957F /* typecheck-gcc.h */; };
+		63666DC91BD8C25F0049AD10 /* EBDownloadCaching.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F797B176A898B006C95BF /* EBDownloadCaching.h */; };
+		63666DCA1BD8C25F0049AD10 /* EBDownload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F7977176A898B006C95BF /* EBDownload.h */; };
+		63666DCB1BD8C25F0049AD10 /* EBDownloadCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F7979176A898B006C95BF /* EBDownloadCache.h */; };
+		63666DCC1BD8C25F0049AD10 /* EBImageDownloadCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F797C176A898B006C95BF /* EBImageDownloadCache.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,22 @@
 			remoteInfo = iOS;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63666DC81BD8C2480049AD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/EBDownloadCaching;
+			dstSubfolderSpec = 16;
+			files = (
+				63666DC91BD8C25F0049AD10 /* EBDownloadCaching.h in CopyFiles */,
+				63666DCA1BD8C25F0049AD10 /* EBDownload.h in CopyFiles */,
+				63666DCB1BD8C25F0049AD10 /* EBDownloadCache.h in CopyFiles */,
+				63666DCC1BD8C25F0049AD10 /* EBImageDownloadCache.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		550F7977176A898B006C95BF /* EBDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBDownload.h; sourceTree = "<group>"; };
@@ -193,6 +213,7 @@
 				55995A8E1763FEB90017F41E /* Sources */,
 				55995A8F1763FEB90017F41E /* Frameworks */,
 				555E5DB7176402C1007FC19F /* Headers */,
+				63666DC81BD8C2480049AD10 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -353,6 +374,7 @@
 		55995A9D1763FEB90017F41E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +388,7 @@
 		55995A9E1763FEB90017F41E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,6 +438,7 @@
 		63D241A71924343700FAE98E /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
